@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyBaiduNavDemo</string>
+    <string name="title_nav">导航</string>
+    <string name="action_search">search</string>
+    <string name="action_more">更多 &#8230;</string>
+    <string name="action_home">Home</string>
+    <string name="action_search_gas">加油站</string>
+    <string name="action_search_mall">商场</string>
+    <string name="action_search_bar">酒吧</string>
+    <string name="action_search_school">学校</string>
+    <string name="action_search_hotel">宾馆</string>
+    <string name="action_search_restaurant">餐馆</string>
+    <string name="action_search_4s">4s店</string>
+
+</resources>

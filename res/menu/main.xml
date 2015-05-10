@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bai.lab.mybaidunavdemo.MainActivity" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_menu_search"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:title="@string/action_search"/>
+
+    <!-- 以下为overflow中的内容 -->
+
+    <item
+        android:id="@+id/action_search_gas"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_gas"/>
+    <item
+        android:id="@+id/action_search_school"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_school"/>
+    <item
+        android:id="@+id/action_search_4s"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_4s"/>
+    <item
+        android:id="@+id/action_search_hotel"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_hotel"/>
+    <item
+        android:id="@+id/action_search_restaurant"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_restaurant"/>
+    <item
+        android:id="@+id/action_search_mall"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_search_mall"/>
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_more"/>
+
+</menu>
